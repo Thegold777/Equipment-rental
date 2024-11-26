@@ -1,0 +1,287 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    background-color: #fff;
+    padding: 20px;
+    flex-wrap: nowrap;
+
+
+}
+
+.header__logo {
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 90px;
+}
+
+.header-nav__list {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    font-family: Noi Grotesk Fix;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.28px;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+}
+
+.header__social {
+    display: flex;
+    gap: 20px;
+    margin-left: 163px;
+}
+
+.contact {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19.28px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    width: 173px;
+}
+
+
+.hero {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.hero__banner {
+    display: flex;
+    flex-direction: column;
+    background-size: cover;
+    position: relative;
+    text-align: center;
+    width: 976px;
+    height: 456px;
+    left: 100px;
+    border-radius: 40px 0px 0px 0px;
+
+}
+
+.hero__banner-img {
+    width: 976px;
+    height: 456px;
+    border-radius: 40px 40px 40px 40px;
+    position: absolute;
+}
+
+.hero__text-overlay {
+    position: absolute;
+    color: #fff;
+}
+
+
+
+.hero__text-title {
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 60.25px;
+    text-align: left;
+    margin: 111px 0 0 80px;
+}
+
+.hero__text-text {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: left;
+    margin: 10px 0 0 80px;
+}
+
+
+
+.hero__cards {
+    display: flex;
+    margin: 20px 0;
+    flex-direction: column;
+    align-items: end;
+    width: 382px;
+    justify-content: space-around;
+
+}
+
+.hero__cards-item {
+    flex-direction: column;
+    display: flex;
+
+    text-align: center;
+    align-items: start;
+    margin: 12px 10px;
+    width: 244px;
+    height: 132px;
+    border-radius: 30px 30px 30px 30px;
+
+
+}
+
+
+.hero__card--green {
+    background-color: #E3F9EC;
+
+}
+
+
+.hero__card--green-90,
+.hero__card--green-500,
+.hero__card--green-990 {
+
+    padding: 27px;
+    margin: 0;
+    font-size: 40px;
+    font-weight: 750;
+    line-height: 48.2px;
+
+
+}
+
+.hero__card--green-text {
+    margin: -22px 28px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.28px;
+
+
+
+
+}
+
+.hero__card--blue {
+    background-color: #E0F4FF;
+}
+
+
+.hero__card--beige {
+    background-color: #FFF5EB;
+}
+
+.catalog__heading {
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 60.25px;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.catalog__title {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 26px;
+    text-align: center;
+    margin-top: 40px;
+
+}
+
+.catalog__content {
+    display: flex;
+    justify-content: space-between;
+    width: 1252px;
+    margin-left: 96px;
+    margin-top: 20px;
+
+
+}
+
+.catalog__content-left,
+.catalog__content-right {
+    width: 610px;
+    height: 566px;
+    top: 786px;
+    left: 96px;
+    gap: 0px;
+    border-radius: 40px 40px 40px 40px;
+    background: #FFF5EB;
+}
+
+h2 {
+    margin: 41px 0 0 41px;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 36.15px;
+    text-align: left;
+}
+
+.price {
+
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 26px;
+    text-align: left;
+    color: #FD3301;
+    margin-left: 41px;
+
+}
+
+.age {
+    position: relative;
+    top: -109px;
+    right: 45px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.28px;
+    color: #152434;
+    opacity: 0.5;
+    text-align: end;
+
+}
+
+.adult__snowboard {
+    position: relative;
+    bottom: 96px;
+    left: 196px;
+}
+
+.children__snowboard {
+    position: relative;
+    bottom: 66px;
+    left: 166px;
+}
+
+.button__left {
+    position: relative;
+    width: 223px;
+    height: 60px;
+    bottom: 205px;
+    left: 40px;
+    border-radius: 50px;
+    border: none;
+    background: #FD3301;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19.28px;
+    text-align: center;
+
+
+
+}
+
+.button__right {
+    position: relative;
+    width: 223px;
+    height: 60px;
+    bottom: 164px;
+    left: 40px;
+    border-radius: 50px;
+    border: none;
+    background: #FD3301;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19.28px;
+    text-align: center;
+
+
+}
