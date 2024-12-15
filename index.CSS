@@ -260,7 +260,7 @@ header {
 .service__card {
     display: flex;
     flex-wrap: wrap;
-    gap: 16px;
+    gap: 9px;
     justify-content: center;
 
 }
@@ -345,6 +345,7 @@ header {
     background-color: #FD3301;
     color: #FFFFFF;
     font-size: 16px;
+    font-weight: 700;
 }
 
 
@@ -363,4 +364,77 @@ header {
     line-height: 22px;
 }
 
+.stocks__title,
+.company__title,
+.advantages__title {
+    text-align: center;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 60.25px;
+    margin: 100px 0 20px 0;
 
+}
+
+
+.stocks__cards {
+    display: flex;
+    justify-content: space-between;
+}
+
+.company__content {
+    display: flex;
+    gap: 48px;
+
+}
+
+.company__img {
+    width: 586px;
+    height: 485px;
+
+
+
+
+}
+
+.company__text {
+
+    line-height: 20px;
+}
+
+.company__button {
+    position: absolute;
+    width: 361px;
+    height: 60px;
+    top: 4283px;
+    left: 730px;
+    border-radius: 50px;
+    background-color: #FD3301;
+    border: none;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 700;
+
+
+}
+
+.advantages__card {
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
+    margin-top: 40px;
+
+}
+
+.advantages__card-title {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 26px;
+
+}
+
+.advantages__card-text{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    
+}
