@@ -213,12 +213,7 @@ header {
     margin-top: -108px;
 }
 
-.catalog__item-button {
-    position: relative;
-    top: 333px;
-    left: 30px;
-    width: 223px;
-    height: 60px;
+.button {
     border-radius: 50px;
     border: none;
     background: #FD3301;
@@ -227,6 +222,16 @@ header {
     font-weight: 700;
     line-height: 19.28px;
     text-align: center;
+
+}
+
+
+.catalog__button-item {
+    position: relative;
+    top: 333px;
+    left: 30px;
+    width: 223px;
+    height: 60px;
 }
 
 
@@ -333,13 +338,7 @@ header {
 
 .feedback__button {
     width: 354px;
-    height: 60px;
-    border-radius: 40px;
-    border: none;
-    background-color: #FD3301;
-    color: #FFFFFF;
-    font-size: 16px;
-    font-weight: 700;
+    height: 60px; 
 }
 
 
@@ -401,14 +400,6 @@ header {
     height: 60px;
     top: 4283px;
     left: 730px;
-    border-radius: 50px;
-    background-color: #FD3301;
-    border: none;
-    color: #FFFFFF;
-    font-size: 16px;
-    font-weight: 700;
-
-
 }
 
 .advantages__cards {
