@@ -38,9 +38,9 @@
                 <img src="img/view-woman-snowboarding-with-pastel-shades-dreamy-landscape 2 1.png"
                     alt="woman-snowboarding" class="hero__banner-img" loading="lazy" width="976px" height="456px">
                 <div class="hero__banner-block">
-                    <h2 class="hero__banner-block-title">Прокат спортивного <br>
+                    <h2 class="hero__banner-title">Прокат спортивного <br>
                         снаряжения</h2>
-                    <p class="hero__banner-block-text">Магазин Yama по прокату горнолыжного снаряжения <br>
+                    <p class="hero__banner-text">Магазин Yama по прокату горнолыжного снаряжения <br>
                         приглашает вас за качественными экипировками и <br>
                         самыми стильными костюмами, коньками в городе.</p>
                 </div>
@@ -48,17 +48,17 @@
 
             </div>
             <div class="hero__cards">
-                <div class="hero__cards-item hero__card--green">
-                    <p class="hero__card--title">90%</p>
-                    <P class="hero__card--text">комплектов новые</P>
+                <div class="hero__card hero__card--green">
+                    <p class="hero__card-title">90%</p>
+                    <P class="hero__card-text">комплектов новые</P>
                 </div>
-                <div class="hero__cards-item hero__card--blue">
-                    <p class="hero__card--title">&gt;500</p>
-                    <p class="hero__card--text">позиций инвентаря</p>
+                <div class="hero__card hero__card--blue">
+                    <p class="hero__card-title">&gt;500</p>
+                    <p class="hero__card-text">позиций инвентаря</p>
                 </div>
-                <div class="hero__cards-item hero__card--beige">
-                    <p class="hero__card--title">от 990 ₸</p>
-                    <p class="hero__card--text">Стоимость аренды</p>
+                <div class="hero__card hero__card--beige">
+                    <p class="hero__card-title">от 990 ₸</p>
+                    <p class="hero__card-text">Стоимость аренды</p>
                 </div>
 
             </div>
@@ -72,23 +72,31 @@
 
             <div class="catalog__content">
 
+                <div class="catalog__items">
+                    <div class="catalog__item">
+                        <h2 class="catalog__item-title">Молодежный</h2>
+                        <p class="catalog__item-price">от 7 990 ₸</p>
+                        <p class="catalog__item-age">(от 12 до 23 лет)</p>
+                        <button class="catalog__item-button">Забронировать</button>
+                    </div>
+                    <div class="catalog__img">
+                        <img src="img/adult snowboard.png" alt="snowboard">
+                    </div>
 
-                <div class="catalog__content-left">
-                    <h2 class="catalog__content-title">Молодежный</h2>
-                    <p class="catalog__content-price">от 7 990 ₸</p>
-                    <p class="catalog__content-age">(от 12 до 23 лет)</p>
-                    <img src="img/adult snowboard.png" class="catalog__content-left-img" alt="snowboard">
-                    <button class="catalog__content-button">Забронировать</button>
                 </div>
 
-
-                <div class="catalog__content-right">
-                    <h2 class="catalog__content-title">Детский</h2>
-                    <p class="catalog__content-price">от 4 990 ₸</p>
-                    <p class="catalog__content-age">(от 3 до 12 лет)</p>
-                    <img src="img/children snowboard.png" class="catalog__content-right-img" alt="snowboard">
-                    <button class="catalog__content-button">Забронировать</button>
+                <div class="catalog__items">
+                    <div class="catalog__item">
+                        <h2 class="catalog__item-title">Детский</h2>
+                        <p class="catalog__item-price">от 4 990 ₸</p>
+                        <p class="catalog__item-age">(от 3 до 12 лет)</p>
+                        <button class="catalog__item-button">Забронировать</button>
+                    </div>
+                    <div class="catalog__img">
+                        <img src="img/children snowboard.png" alt="snowboard">
+                    </div>
                 </div>
+
             </div>
 
         </section>
@@ -104,17 +112,17 @@
 
             <h1 class="service__title">Услуги</h1>
 
-            <div class="service__card">
+            <div class="service__cards">
                 <div class="service__card-item">
                     <h2 class="service__card-title">Камера хранения</h2>
                     <p class="service__card-price">1500 ₸</p>
-                    <p class="details">2500 ₸ сутки</p>
+                    <p class="service__card-details">2500 ₸ сутки</p>
                     <img src="img/luggage storage.png" alt="luggge storage" class="service__card-img">
                 </div>
                 <div class="service__card-item">
                     <h2 class="service__card-title">Трансфер на гору</h2>
                     <p class="service__card-price">1000 ₸</p>
-                    <p class="details">В одну сторону</p>
+                    <p class="service__card-details">В одну сторону</p>
                     <img src="img/bus.png" alt="bus" class="service__card-img" style="top: 40px;">
 
                 </div>
@@ -150,17 +158,17 @@
         <section class="feedback container">
 
 
-            <div class="feedback__block">
+            <form class="feedback__block">
                 <h2 class="feedback__title">Оставить заявку</h2>
                 <h3 class="feedback__text">Оставьте свои контакты и наш специалист свяжется с вами </h3>
                 <div class="feedback__input">
-                    <input type="text" id="feedback__block-name" placeholder="Ваше имя">
+                    <input type="text" class="feedback__block-name" placeholder="Ваше имя">
 
 
-                    <input type="tel" id="feedback__block-number" placeholder="+7 (___) ___-__-__">
+                    <input type="tel" class="feedback__block-number" placeholder="+7 (___) ___-__-__">
                     <button class="feedback__button">Оставить заявку</button>
                 </div>
-            </div>
+            </form>
 
         </section>
 
@@ -169,14 +177,14 @@
             <h2 class="stocks__title">Акции</h2>
             <div class="stocks__cards">
                 <div class="stocks__cards-item">
-                    <img class="stocks__img1" src="img/акция.png" alt="акция">
+                    <img class="stocks__cards-img" src="img/акция.png" alt="акция">
 
                 </div>
                 <div class="stocks__cards-item">
-                    <img class="stocks__img2" src="img/акция2.png" alt="акция2">
+                    <img class="stocks__cards-img" src="img/акция2.png" alt="акция">
                 </div>
                 <div class="stocks__cards-item">
-                    <img class="stocks__img3" src="img/акция3.png" alt="акция3">
+                    <img class="stocks__cards-img" src="img/акция3.png" alt="акция">
                 </div>
             </div>
         </section>
@@ -186,20 +194,25 @@
             <div class="company__content container">
                 <img class="company__img" src="img/company.png" alt="company">
                 <div class="company__text">
-                    <p>Yama — это философия свободной жизни. А что дает большее ощущение свободы, нежели спорт в горной
+                    <p class="company__text-item">Yama — это философия свободной жизни. А что дает большее ощущение
+                        свободы, нежели спорт в горной
                         местности?</p><br>
-                    <p>Прокат сноубордов, горных лыж, коньков и всей необходимой экипировки на любой вкус: от перчаток
+                    <p class="company__text-item">Прокат сноубордов, горных лыж, коньков и всей необходимой экипировки
+                        на любой вкус: от перчаток
                         до шлемов самого разного дизайнерского исполнения.
                         В том числе, снаряжение для детей от 7 лет. Аренда оборудования для любых возрастов, ростовок и
                         вкусов: будь то снаряжение от ELAN, HEAD, Fischer,
                          ROSSIGNOL или других именитых брендов. Только у нас: крепления ВОА, магнитные лыжные очки
                         сменными линзами, противотуманные очки для сноубордистов,
                         балаклава при аренде в ПОДАРОК.</p><br>
-                    <p>Весь прокатный инвентарь проходит регулярную подготовку в нашей мастерской (заточка кантов,
+                    <p class="company__text-item">Весь прокатный инвентарь проходит регулярную подготовку в нашей
+                        мастерской (заточка кантов,
                         обработка скользящей поверхности, проверка креплений)</p><br>
-                    <p> Все ботинки после каждого проката проходят антибактериальную сушку на специально разработанном
+                    <p class="company__text-item"> Все ботинки после каждого проката проходят антибактериальную сушку на
+                        специально разработанном
                         оборудовании.</p><br>
-                    <p>Мы гарантируем профессиональный подход по всем видам предоставляемого сервиса: будь то прокат,
+                    <p class="company__text-item">Мы гарантируем профессиональный подход по всем видам предоставляемого
+                        сервиса: будь то прокат,
                         ремонт или консультация специалиста.</p>
                 </div>
                 <button class="company__button">Забронировать снаряжение</button>
@@ -208,26 +221,26 @@
 
         <section class="advantages">
             <h2 class="advantages__title">Почему нас выбирают</h2>
-            <div class="advantages__card container">
-                <div class="advantages__card-item">
+            <div class="advantages__cards container">
+                <div class="advantages__card">
                     <img src="img/img1.png" alt="картинка">
                     <h4 class="advantages__card-title">Широкий ассортимент</h4>
                     <p class="advantages__card-text">Снаряжение от лучших мировых производителей для любова типа катания
                     </p>
                 </div>
-                <div class="advantages__card-item">
+                <div class="advantages__card">
                     <img src="img/img2.png" alt="картинка">
                     <h4 class="advantages__card-title">Безопасное катание</h4>
                     <p class="advantages__card-text">Сервис и контроль перед арендой. Подбор оборудования строго по
                         размеру</p>
                 </div>
-                <div class="advantages__card-item">
+                <div class="advantages__card">
                     <img src="img/img3.png" alt="картинка">
                     <h4 class="advantages__card-title">Тщательная дезинфекция</h4>
                     <p class="advantages__card-text">Дезиннфеция ботинок после каждого клиента: обработка антисептиком,
                         чистка и сушка</p>
                 </div>
-                <div class="advantages__card-item">
+                <div class="advantages__card">
                     <img src="img/img4.png" alt="картинка">
                     <h4 class="advantages__card-title">Клиентоориентированность</h4>
                     <p class="advantages__card-text">Мы с радостью ответим на все интересующие Вас вопросы</p>
@@ -242,101 +255,163 @@
 
         <section class="comments">
             <h2 class="comments__title">Отзывы</h2>
-            <div class="comments__text">
-                <div class="comments__text-item">
+            <div class="comments__content">
+                <div class="comments__content-item">
                     Жасулан просто лучший, очень сильно выручил, ночью случилось ЧП, он вошел в положение задержался
                     ночью!
                     Не смотря на то что он устал после своей смены, отнесся с пониманием!🤝 крутое оборудование!
                     Хожу к вам 2-ой год ни разу не пожалев! Спасибо вам большое🙌🏻
-                    <p class="comments__text-item-read">Читать весь отзыв</p>
+                    <button class="comments__button">
+                        <a class="comments__button-link" href="https://www.google.com" target="_blank">Читать весь
+                            отзыв</a>
+                    </button>
                 </div>
-                <div class="comments__text-item">
+                <div class="comments__content-item">
                     Жасулан просто лучший, очень сильно выручил, ночью случилось ЧП, он вошел в положение задержался
                     ночью!
                     Не смотря на то что он устал после своей смены, отнесся с пониманием!🤝 крутое оборудование!
                     Хожу к вам 2-ой год ни разу не пожалев! Спасибо вам большое🙌🏻
-                    <p class="comments__text-item-read">Читать весь отзыв</p>
+                    <button class="comments__button">
+                        <a class="comments__button-link" href="https://www.google.com" target="_blank">Читать весь
+                            отзыв</a>
+                    </button>
                 </div>
-                <div class="comments__text-item">
+                <div class="comments__content-item">
                     Жасулан просто лучший, очень сильно выручил, ночью случилось ЧП, он вошел в положение задержался
                     ночью!
                     Не смотря на то что он устал после своей смены, отнесся с пониманием!🤝 крутое оборудование!
                     Хожу к вам 2-ой год ни разу не пожалев! Спасибо вам большое🙌🏻
-                    <p class="comments__text-item-read">Читать весь отзыв</p>
+                    <button class="comments__button">
+                        <a class="comments__button-link" href="https://www.google.com" target="_blank">Читать весь
+                            отзыв</a>
+                    </button>
                 </div>
-                <div class="comments__text-item">
+                <div class="comments__content-item">
                     Жасулан просто лучший, очень сильно выручил, ночью случилось ЧП, он вошел в положение задержался
                     ночью!
                     Не смотря на то что он устал после своей смены, отнесся с пониманием!🤝 крутое оборудование!
                     Хожу к вам 2-ой год ни разу не пожалев! Спасибо вам большое🙌🏻
-                    <p class="comments__text-item-read">Читать весь отзыв</p>
+                    <button class="comments__button">
+                        <a class="comments__button-link" href="https://www.google.com" target="_blank">Читать весь
+                            отзыв</a>
+                    </button>
                 </div>
             </div>
         </section>
 
         <section class="faq">
             <h2 class="faq__title">FAQ</h2>
-            <div class="faq__item container">
-                <p class="faq__question">Где находится сеть Ваших прокатов? Какой <br>
+            <div class="faq__content container">
+                <p class="faq__content-text">Где находится сеть Ваших прокатов? Какой <br>
                     график работы?
-                    <span><img src="img/arrow down.svg" alt="arrow down"></span>
+                    <i class="faq__arrow-down">
+                        <svg width="15" height="9" viewBox="0 0 15 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M14 1L7.5 8L1 1" stroke="#152434" stroke-linecap="square" />
+                        </svg>
+                    </i>
+
                 </p>
 
-                <p class="faq__question">Можно ли продлить аренду оборудования <br>
+                <p class="faq__content-text">Можно ли продлить аренду оборудования <br>
                     по телефону?
-                    <span><img src="img/arrow down.svg" alt="arrow down"></span>
+                    <i class="faq__arrow-down">
+                        <svg width="15" height="9" viewBox="0 0 15 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M14 1L7.5 8L1 1" stroke="#152434" stroke-linecap="square" />
+                        </svg>
+                    </i>
                 </p>
 
-                <p class="faq__question">Какое самое новое оборудование есть в <br>
+                <p class="faq__content-text">Какое самое новое оборудование есть в <br>
                     наличии?
-                    <span><img src="img/arrow down.svg" alt="arrow down"></span>
+                    <i class="faq__arrow-down">
+                        <svg width="15" height="9" viewBox="0 0 15 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M14 1L7.5 8L1 1" stroke="#152434" stroke-linecap="square" />
+                        </svg>
+                    </i>
                 </p>
 
-                <p class="faq__question">Как будет подтверждаться аренда?
-                    <span><img src="img/arrow down.svg" alt="arrow down"></span>
+                <p class="faq__content-text">Как будет подтверждаться аренда?
+                    <i class="faq__arrow-down">
+                        <svg width="15" height="9" viewBox="0 0 15 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M14 1L7.5 8L1 1" stroke="#152434" stroke-linecap="square" />
+                        </svg>
+                    </i>
                 </p>
 
-                <p class="faq__question">Есть ли у вас инструкторы, в том числе <br>
+                <p class="faq__content-text">Есть ли у вас инструкторы, в том числе <br>
                     детские?
-                    <span><img src="img/arrow down.svg" alt="arrow down"></span>
+                    <i class="faq__arrow-down">
+                        <svg width="15" height="9" viewBox="0 0 15 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M14 1L7.5 8L1 1" stroke="#152434" stroke-linecap="square" />
+                        </svg>
+                    </i>
                 </p>
 
-                <p class="faq__question">Как проводится дезинфекция ботинок?
-                    <span><img src="img/arrow down.svg" alt="arrow down"></span>
+                <p class="faq__content-text">Как проводится дезинфекция ботинок?
+                    <i class="faq__arrow-down">
+                        <svg width="15" height="9" viewBox="0 0 15 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M14 1L7.5 8L1 1" stroke="#152434" stroke-linecap="square" />
+                        </svg>
+                    </i>
                 </p>
             </div>
         </section>
 
         <section class="map container">
-            <div class="map__content">
-                <div class="map__text">
-                    <h2 class="map__title">Наши филиалы</h2>
-                    <h4 class="map__title-city">Алматы</h4>
-                    <p class="map__title-text"><span><img src="img/pin.svg" alt="pin"></span>
-                        Проспект Достык, 12 улица Казыбек би, 24</p>
+            <div class="map__block">
+                <div class="map__content">
+                    <h2 class="map__content-title">Наши филиалы</h2>
+                    <h4 class="map__content-city">Алматы</h4>
+                    <div class="map__content-text">
+                        <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M7.5 8.49478C8.604 8.49478 9.5 7.59934 9.5 6.49606C9.5 5.39278 8.604 4.49738 7.5 4.49738C6.396 4.49738 5.5 5.39278 5.5 6.49606C5.5 7.59934 6.396 8.49478 7.5 8.49478Z"
+                                stroke="#152434" stroke-linecap="square" />
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M13.5 6.49606C13.5 11.4928 8.5 14.4909 7.5 14.4909C6.5 14.4909 1.5 11.4928 1.5 6.49606C1.5 3.18522 4.187 0.5 7.5 0.5C10.813 0.5 13.5 3.18522 13.5 6.49606Z"
+                                stroke="#152434" stroke-linecap="square" />
+                        </svg>
+                        <p class="map__content-address">Проспект Достык, 12 улица Казыбек би, 24</p>
+                    </div>
+                    <a class="map__content-link" href="Показать на карте">Показать на карте</a>
+                    <div class="map__content-text">
+                        <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M7.5 8.49478C8.604 8.49478 9.5 7.59934 9.5 6.49606C9.5 5.39278 8.604 4.49738 7.5 4.49738C6.396 4.49738 5.5 5.39278 5.5 6.49606C5.5 7.59934 6.396 8.49478 7.5 8.49478Z"
+                                stroke="#152434" stroke-linecap="square" />
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M13.5 6.49606C13.5 11.4928 8.5 14.4909 7.5 14.4909C6.5 14.4909 1.5 11.4928 1.5 6.49606C1.5 3.18522 4.187 0.5 7.5 0.5C10.813 0.5 13.5 3.18522 13.5 6.49606Z"
+                                stroke="#152434" stroke-linecap="square" />
+                        </svg>
+                        <p class="map__content-address">Проспект Достык, 89</p>
+                    </div>
+                    <a class="map__content-link" href="Показать на карте">Показать на карте</a>
 
-                    <a class="map__link" href="Показать на карте">Показать на карте</a>
-
-                    <p class="map__title-text"><span><img src="img/pin.svg" alt="pin"></span>
-                        Проспект Достык, 89</p>
-                    <a class="map__link" href="Показать на карте">Показать на карте</a>
-
-                    <h4 class="map__title-city">Усть-Каменогорск</h4>
-                    <p class="map__title-text"><span><img src="img/pin.svg" alt="pin"></span>
-                        Проспект Достык, 89</p>
-                    <a class="map__link" href="Показать на карте">Показать на карте</a>
+                    <h4 class="map__content-city">Усть-Каменогорск</h4>
+                    <div class="map__content-text">
+                        <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M7.5 8.49478C8.604 8.49478 9.5 7.59934 9.5 6.49606C9.5 5.39278 8.604 4.49738 7.5 4.49738C6.396 4.49738 5.5 5.39278 5.5 6.49606C5.5 7.59934 6.396 8.49478 7.5 8.49478Z"
+                                stroke="#152434" stroke-linecap="square" />
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M13.5 6.49606C13.5 11.4928 8.5 14.4909 7.5 14.4909C6.5 14.4909 1.5 11.4928 1.5 6.49606C1.5 3.18522 4.187 0.5 7.5 0.5C10.813 0.5 13.5 3.18522 13.5 6.49606Z"
+                                stroke="#152434" stroke-linecap="square" />
+                        </svg>
+                        <p class="map__content-address">Проспект Достык, 89</p>
+                    </div>
+                    <a class="map__content-link" href="Показать на карте">Показать на карте</a>
                     <nav class="map__social">
-                        <img src="img/instagram.png" alt="instagram">
+                        <img src="img/instagram.png" class="map__content-social-item" alt="instagram">
                         <img src="img/tiktok.png" class="map__social-item" alt="tiktok">
                         <img src="img/whatsapp.png" class="map__social-item" alt="whatsapp">
                     </nav>
                 </div>
-
-
-                <img class="map__img" src="img/map.png" alt="map">
+                <img class="map__block-img" src="img/map.png" alt="map">
             </div>
         </section>
-        <section class="road3__img">
+
+
+        <section class="road3">
             <img class="road3__img" src="img/road3.png" alt="дорога">
             <img class="road3__skier" src="img/лыжник3.png" alt="лыжник">
         </section>
@@ -345,11 +420,11 @@
 
     <footer class="footer container">
         <div class="footer__social">
-            <img class="footer__logo" src="img/logo white.png" alt="logo">
-            <div class="footer__img">
-                <img src="img/instagram.png" alt="instagram">
-                <img src="img/tiktok.png" class="footer__social-item" alt="tiktok">
-                <img src="img/whatsapp.png" class="footer__social-item" alt="whatsapp">
+            <img class="footer__social-logo" src="img/logo white.png" alt="logo">
+            <div class="footer__social-icons">
+                <img src="img/instagram.png" class="footer__social-icon" alt="instagram">
+                <img src="img/tiktok.png" class="footer__social-icon" alt="tiktok">
+                <img src="img/whatsapp.png" class="footer__social-icon" alt="whatsapp">
             </div>
         </div>
         <div class="footer__nav">
@@ -366,10 +441,23 @@
             </ul>
         </div>
         <div class="footer__contact">
-            <div class="footer__contact-item">
-                <div class="footer__contact-item"><span><img src="img/phone.svg" alt="phone"></span>+7 707 921 1716
+            <div class="footer__contact-items">
+                <div class="footer__contact-item">
+                    <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M4.71922 0.5H2.5C1.39543 0.5 0.5 1.39543 0.5 2.5V4.5C0.5 10.0228 4.97715 14.5 10.5 14.5H12.5C13.6046 14.5 14.5 13.6046 14.5 12.5V11.118C14.5 10.7393 14.286 10.393 13.9472 10.2236L11.5313 9.01564C10.987 8.74349 10.3278 9.01652 10.1354 9.59384L9.83762 10.4871C9.64474 11.0658 9.05118 11.4102 8.45309 11.2906C6.05929 10.8119 4.18814 8.94071 3.70938 6.54691C3.58976 5.94882 3.93422 5.35526 4.51286 5.16238L5.62149 4.79284C6.11721 4.6276 6.40214 4.10855 6.2754 3.60162L5.68937 1.25746C5.57807 0.812297 5.17809 0.5 4.71922 0.5Z"
+                            stroke="white" />
+                    </svg>
+                    <h3 class="footer__contact-number">+7 707 921 1716</h3>
                 </div>
-                <div class="footer__contact-item"><span><img src="img/Vector.svg" alt="Vector"></span>Yama@mail.ru</div>
+                <div class="footer__contact-item">
+                    <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M10.5 7.5C10.5 9.15685 9.15685 10.5 7.5 10.5C5.84315 10.5 4.5 9.15685 4.5 7.5C4.5 5.84315 5.84315 4.5 7.5 4.5C9.15685 4.5 10.5 5.84315 10.5 7.5ZM10.5 7.5V8.5C10.5 9.60457 11.3954 10.5 12.5 10.5C13.2095 10.5 13.8328 10.1305 14.1878 9.57343C14.3855 9.26329 14.5 8.89502 14.5 8.5V7.5C14.5 3.63401 11.366 0.5 7.5 0.5C3.63401 0.5 0.5 3.63401 0.5 7.5C0.5 11.366 3.63401 14.5 7.5 14.5C8.98725 14.5 10.3662 14.0362 11.5 13.2453"
+                            stroke="white" />
+                    </svg>
+                    <h3 class="footer__contact-email">Yama@mail.ru</h3>
+                </div>
             </div>
         </div>
     </footer>
