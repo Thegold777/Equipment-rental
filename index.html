@@ -12,12 +12,12 @@
 <body>
     <header class="header container">
         <div class="header__burger">
+            <span> </span>
             <span></span>
-            <span></span>
-            
+
         </div>
         <img src="img/logo.png" alt="logo" class="header__logo">
-        
+
         <nav class="header__nav header-nav">
 
             <ul class="header-nav__list">
@@ -42,6 +42,26 @@
             </ul>
 
         </nav>
+
+        <div class="header-menu">
+            <ul class="header-menu__list">
+                <li class="header-menu__list-item">
+                    <a href="index.html" class="header-menu__list-item">Услуги</a>
+                </li>
+                <li class="header-menu__list-item">
+                    <a href="index.html" class="header-menu__list-item">Акции</a>
+                </li>
+                <li class="header-menu__list-item">
+                    <a href="index.html" class="header-menu__list-item">О нас</a>
+                </li>
+                <li class="header-menu__list-item">
+                    <a href="index.html" class="header-menu__list-item">FAQ</a>
+                </li>
+                <li class="header-menu__list-item">
+                    <a href="index.html" class="header-menu__list-item">Контакты</a>
+                </li>
+            </ul>
+        </div>
         <div class="header__media">
             <a class="header__media-item" href="index.html" target="_blank">
                 <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -163,12 +183,12 @@
         </section>
 
 
-        <section class="road">
+        <section class="road container">
             <img class="road__img" src="img/Frame 118.png" alt="дорога">
             <img class="road__skier" src="img/лыжник.png" alt="лыжник">
         </section>
 
-    
+
 
 
         <section class="service container">
@@ -261,66 +281,70 @@
                 <h2 class="stocks__title">Акции</h2>
 
                 <div class="stocks__slider ">
+                    <div class="stocks__slider-items">
+                        
+                            <div class="stocks__slider-item slider-prev">
+                                <div class="stocks__slider-item-img">
+                                    <div class="stocks__text">
+                                        <h3 class="stocks__text-title">5+1</h3>
+                                        <p class="stocks__text-text">При аренде 5 <br>
+                                            молодежных комплектов, <br>
+                                            6-ой бесплатно</p>
+                                    </div>
+                                    <div class="stocks__picture">
+                                        <img src="img/picture1.png" alt="акция">
+                                    </div>
+                                </div>
 
-                    <div class="stocks__slider-item slider-prev">
-                        <div class="stocks__slider-item-img">
-                            <div class="stocks__text">
-                                <h3 class="stocks__text-title">5+1</h3>
-                                <p class="stocks__text-text">При аренде 5 <br>
-                                    молодежных комплектов, <br>
-                                    6-ой бесплатно</p>
                             </div>
-                            <div class="stocks__picture">
-                                <img src="img/picture1.png" alt="акция">
+
+                            <div class="stocks__slider-item slider-active">
+                                <div class="stocks__slider-item-img">
+                                    <div class="stocks__text">
+                                        <h3 class="stocks__text-title">Бесплатная аренда оборудования для именинников
+                                        </h3>
+                                        <p class="stocks__text-text">Действительно только в день <br>
+                                            прождения при предьявлении <br>
+                                            паспорта</p>
+                                    </div>
+                                    <div class="stocks__picture">
+                                        <img src="img/pngtree-birthday-cake-pink-cute-cartoon-3d-png-image_13249057 1.png"
+                                            alt="акция">
+                                    </div>
+                                </div>
+
                             </div>
+
+
+                            <div class="stocks__slider-item slider-next">
+                                <div class="stocks__slider-item-img">
+                                    <div class="stocks__text">
+                                        <h3 class="stocks__text-title">Абонемент <br>
+                                            за 100 000 ₸</h3>
+                                        <p class="stocks__text-text">на месяц аренды <br>
+                                            спортивного снаряжения</p>
+                                    </div>
+                                    <div class="stocks__picture">
+                                        <img src="img/brutal-redhead-snowboarder-with-full-beard-winter-hat-protective-glasses-dressed-snowboarding-coat-posing-with-snowboard-studio-looking-camera-isolated-gray-backgrou 1.png"
+                                            alt="акция">
+                                    </div>
+                                </div>
+
+                            </div>
+                       
+                    </div>
+                    <div class="stocks__pagination">
+                        <div class="stocks__pagination">
+                            <span class="stocks__pagination-button button_pagination"></span>
+                            <span class="stocks__pagination-button button_pagination"></span>
+                            <span class="stocks__pagination-button button_pagination"></span>
                         </div>
 
-                    </div>
-
-                    <div class="stocks__slider-item slider-active">
-                        <div class="stocks__slider-item-img">
-                            <div class="stocks__text">
-                                <h3 class="stocks__text-title">Бесплатная аренда оборудования для именинников</h3>
-                                <p class="stocks__text-text">Действительно только в день <br>
-                                    прождения при предьявлении <br>
-                                    паспорта</p>
-                            </div>
-                            <div class="stocks__picture">
-                                <img src="img/pngtree-birthday-cake-pink-cute-cartoon-3d-png-image_13249057 1.png"
-                                    alt="акция">
-                            </div>
-                        </div>
-
-                    </div>
-
-
-                    <div class="stocks__slider-item slider-next">
-                        <div class="stocks__slider-item-img">
-                            <div class="stocks__text">
-                                <h3 class="stocks__text-title">Абонемент <br>
-                                    за 100 000 ₸</h3>
-                                <p class="stocks__text-text">на месяц аренды <br>
-                                    спортивного снаряжения</p>
-                            </div>
-                            <div class="stocks__picture">
-                                <img src="img/brutal-redhead-snowboarder-with-full-beard-winter-hat-protective-glasses-dressed-snowboarding-coat-posing-with-snowboard-studio-looking-camera-isolated-gray-backgrou 1.png"
-                                    alt="акция">
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-
-                <div class="stocks__pagination">
-                    <span class="stocks__pagination-button button_pagination"></span>
-                    <span class="stocks__pagination-button button_pagination"></span>
-                    <span class="stocks__pagination-button button_pagination"></span>
-                </div>
         </section>
 
 
 
-        <section class="company container">
+           <section class="company container">
             <h2 class="company__title">О компании</h2>
             <div class="company__content">
                 <img class="company__img" src="img/company.png" alt="company">
@@ -346,8 +370,8 @@
                         сервиса: будь то прокат,
                         ремонт или консультация специалиста.</p>
 
+                    </div>
                     <button class="button company__button">Забронировать снаряжение</button>
-                </div>
             </div>
         </section>
 
@@ -385,8 +409,8 @@
             <img class="road2__skier" src="img/лыжник2.png" alt="лыжник">
         </section>
 
-        <section class="comments ">
-            <h2 class="comments__title container">Отзывы</h2>
+        <section class="comments container">
+            <h2 class="comments__title">Отзывы</h2>
             <div class="comments__content">
                 <div class="comments__item">
                     <p class="comments__item-text">
@@ -459,7 +483,7 @@
                 </div>
 
             </div>
-            <div class="comments__pagination container">
+            <div class="comments__pagination">
                 <span class="comments__pagination-button button_pagination"></span>
                 <span class="comments__pagination-button button_pagination"></span>
                 <span class="comments__pagination-button button_pagination"></span>
@@ -546,6 +570,7 @@
                         <p class="map__content-address">Проспект Достык, 12 улица Казыбек би, 24</p>
                     </div>
                     <a class="map__content-link" href="Показать на карте">Показать на карте</a>
+                
                     <div class="map__content-text">
                         <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path fill-rule="evenodd" clip-rule="evenodd"
@@ -670,8 +695,7 @@
             </div>
         </section>
 
-
-        <section class="road3 ">
+        <section class="road3 container">
             <img class="road3__img" src="img/road3.png" alt="дорога">
             <img class="road3__skier" src="img/лыжник3.png" alt="лыжник">
         </section>
