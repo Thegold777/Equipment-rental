@@ -265,6 +265,7 @@ main {
 }
 
 .catalog__content {
+    position: relative;
     display: flex;
     gap: 20px;
     margin-top: 30px;
@@ -282,17 +283,25 @@ main {
 
 .catalog__items {
     position: relative;
-    width: 100%;
-    height: 566px;
+    width: 37.875rem;
+    height: 35.375rem;
     border-radius: 40px 40px 40px 40px;
     background: #FFF5EB;
-
+    padding: 40px;
 }
 
 .catalog__item {
-    margin-top: 40px;
-    margin-left: 40px;
+    display: flex;
+    flex-direction: column;
 }
+
+.catalog__item-top {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+
 
 .catalog__item-price {
 
@@ -312,9 +321,8 @@ main {
     line-height: 19.28px;
     color: #152434;
     opacity: 0.5;
-    right: 44px;
-    top: 44px;
-
+    right: 0;
+   
 }
 
 .catalog__img {
@@ -533,15 +541,14 @@ main {
     border: none;
     overflow: hidden;
     flex-shrink: 0;
+    padding: 40px;
 
 }
 
 .stocks__text {
-    padding: 40px;
     position: relative;
     z-index: 1;
     color: #FFFFFF;
-
 }
 
 
@@ -626,7 +633,7 @@ main {
     position: absolute;
     width: 361px;
     height: 60px;
-    bottom: -30px;
+    bottom: -60px;
     right: 240px;
 }
 
@@ -722,9 +729,11 @@ main {
 
 .comments__link {
     display: block;
+    position: absolute;
     color: #152434;
-    margin-top: 40px;
     opacity: 0.5;
+    bottom: 25px;
+    white-space: nowrap;
 }
 
 .comments__pagination {
@@ -758,17 +767,20 @@ main {
 
 }
 
-.faq__content-text {
+.faq__content-item {
     display: flex;
     justify-content: space-between;
     padding: 20px;
     width: 610px;
     height: 82px;
-    gap: 0;
     border-radius: 10px;
     font-size: 20px;
     font-weight: 600;
     background-color: #FFF5EB;
+}
+
+.faq__content-text {
+    width: 490px;
 }
 
 .faq__arrow-down {
@@ -831,7 +843,7 @@ main {
 .map__media {
     display: flex;
     gap: 20px;
-    padding-top: 55px;
+    margin-top: 55px;
 
 }
 
@@ -1060,6 +1072,9 @@ main {
         gap: 20px;
         margin-top: 20px;
 
+    }
+    .catalog__items {
+        width: 768px;
     }
 
     .road {
